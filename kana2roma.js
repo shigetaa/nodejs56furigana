@@ -1,6 +1,6 @@
 const { type } = require("os");
 
-// カタガナからローマ字を返すモジュール
+// ひらがなからローマ字を返すモジュール
 module.exports = function (targetStr) {
 	var romanMap = {
 		'あ': 'a',

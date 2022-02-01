@@ -1,5 +1,3 @@
-const { type } = require("os");
-
 // ひらがなからローマ字を返すモジュール
 module.exports = function (targetStr) {
 	var romanMap = {

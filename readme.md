@@ -81,8 +81,6 @@ node mecab.js
 ## ひらがな、カタカナをローマ字に変換モジュールを作成
 ひらがな、カタカナをローマ字に変換するモジュールを`kana2roma.js`と言う名前のファイルを作成して以下の様に記述してみます。
 ```javascript
-const { type } = require("os");
-
 // ひらがなからローマ字を返すモジュール
 module.exports = function (targetStr) {
 	var romanMap = {
